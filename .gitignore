@@ -1,0 +1,27 @@
+# Ignore all files in the bin/ directory (compiled .class files)
+bin/
+
+# Ignore Eclipse project-specific files
+.classpath
+.project
+.settings/
+
+# Ignore Maven or Gradle build directories (if applicable)
+target/
+build/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore backup and temporary files
+*.bak
+*.tmp
+*.swp
+
+# Ignore OS-specific files
+*.~lock.*
+desktop.ini
